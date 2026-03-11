@@ -1,50 +1,237 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Jainam Sheth – E‑Portfolio</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: auto; max-width: 800px; padding: 20px; }
-    h1, h2 { color: #222; }
-    a { color: #0366d6; text-decoration: none; }
-    .section { margin-bottom: 40px; }
-  </style>
+<meta charset="UTF-8">
+<title>Jainam Sheth – E-Portfolio</title>
+
+<style>
+body{
+  font-family: Arial, sans-serif;
+  margin:auto;
+  max-width:900px;
+  padding:20px;
+  line-height:1.6;
+}
+
+h1{
+  color:#222;
+}
+
+h2{
+  border-bottom:2px solid #eee;
+  padding-bottom:5px;
+  margin-top:40px;
+}
+
+a{
+  color:#0366d6;
+  text-decoration:none;
+}
+
+.project{
+  margin-bottom:25px;
+}
+
+ul{
+  padding-left:20px;
+}
+
+header{
+  margin-bottom:40px;
+}
+</style>
 </head>
+
 <body>
 
-  <h1>Jainam Sheth – E‑Portfolio</h1>
-  <p>Computer Science student at KTH with interests in IT infrastructure, Linux, and system operations.</p>
+<header>
+<h1>Jainam Sheth – E-Portfolio</h1>
 
-  <h2>Contact</h2>
-  <p>Email: <a href="mailto:jainamsheth1234@gmail.com">jainamsheth1234@gmail.com</a></p>
+<p>
+Computer Science student at KTH Royal Institute of Technology with interests in 
+IT infrastructure, networking, Linux systems, and backend development.
+</p>
 
-  <div class="section">
-    <h2>Projects & Work</h2>
-    <h3>Mentoring & Tutoring – Allakando</h3>
-    <p>Guided students with structured lessons and support, developing communication, planning, and problem‑solving skills.</p>
+<p>
+📧 Email: <a href="mailto:jainamsheth1234@gmail.com">jainamsheth1234@gmail.com</a>
+</p>
 
-    <h3>Linux & Systems Practice</h3>
-    <p>Self‑directed exercises with Linux installations, scripting basics, and system exploration in preparation for IT roles.</p>
+</header>
 
-    <h3>KTH Project Work</h3>
-    <p>Relevant academic exercises showing systems thinking, programming fundamentals, and collaborative problem solving.</p>
-  </div>
 
-  <div class="section">
-    <h2>Skills & Tools</h2>
-    <ul>
-      <li>Linux (basic administration & terminal usage)</li>
-      <li>Python & Java</li>
-      <li>Git & version control</li>
-      <li>Documentation & troubleshooting</li>
-    </ul>
-  </div>
+<section>
 
-  <div class="section">
-    <h2>CV</h2>
-    <p><a href="CV.pdf" target="_blank">Download my CV (PDF)</a></p>
-  </div>
+<h2>About Me</h2>
+
+<p>
+I am currently studying Computer Science at KTH. My interests focus on how systems work 
+behind the scenes — networking, Linux environments, and server-side programming.
+</p>
+
+<p>
+Through coursework and self-directed projects I have practiced building network programs,
+working with Git, and exploring Linux system tools.
+</p>
+
+</section>
+
+
+<section>
+
+<h2>Technical Skills</h2>
+
+<ul>
+<li>Linux & Terminal usage</li>
+<li>Java programming</li>
+<li>Python basics</li>
+<li>TCP/IP networking fundamentals</li>
+<li>Git & version control</li>
+<li>Debugging and troubleshooting</li>
+</ul>
+
+</section>
+
+
+<section>
+
+<h2>KTH Programming Projects</h2>
+
+<div class="project">
+
+<h3>TCPAsk – TCP Client Communication</h3>
+
+<p>
+Java program that communicates with a server using TCP sockets. 
+The client sends a request message and receives a response from the server.
+</p>
+
+<p>
+Concepts used:
+</p>
+
+<ul>
+<li>TCP sockets</li>
+<li>Client-server communication</li>
+<li>Java networking APIs</li>
+</ul>
+
+<p>
+Repository:
+<a href="https://gits-15.sys.kth.se/IK1203VT26/jainam-TCPAsk.git">
+TCPAsk Project
+</a>
+</p>
+
+</div>
+
+
+<div class="project">
+
+<h3>HTTPAskServer – Simple HTTP Server</h3>
+
+<p>
+Implemented a small HTTP server in Java that accepts HTTP requests and communicates
+with a backend TCP service. The server parses query parameters and returns the response
+to the browser.
+</p>
+
+<ul>
+<li>HTTP protocol basics</li>
+<li>Server socket programming</li>
+<li>Request parsing</li>
+</ul>
+
+<p>
+Repository:
+<a href="https://gits-15.sys.kth.se/IK1203VT26/jainam-HTTPAskServer.git">
+HTTPAskServer Project
+</a>
+</p>
+
+</div>
+
+
+<div class="project">
+
+<h3>Concurrent HTTPAskServer</h3>
+
+<p>
+Extended the HTTP server to support multiple clients simultaneously using concurrent
+threads. This improves server performance and allows handling multiple requests at once.
+</p>
+
+<ul>
+<li>Multithreading</li>
+<li>Concurrent server design</li>
+<li>Thread management</li>
+</ul>
+
+<p>
+Repository:
+<a href="https://gits-15.sys.kth.se/IK1203VT26/jainam-ConcurrentHTTPAskServer.git">
+ConcurrentHTTPAskServer Project
+</a>
+</p>
+
+</div>
+
+
+<div class="project">
+
+<h3>Web Portfolio Site</h3>
+
+<p>
+Personal portfolio website built with HTML to present my work and projects.
+This site is designed to showcase my programming projects and technical skills.
+</p>
+
+<p>
+Repository:
+<a href="https://gits-15.sys.kth.se/iprog-students/jainam-vt26-web.git">
+Portfolio Website Repository
+</a>
+</p>
+
+</div>
+
+</section>
+
+
+<section>
+
+<h2>Professional Experience</h2>
+
+<h3>Mentor & Tutor – Allakando</h3>
+
+<p>
+Worked as a tutor helping students improve their understanding of school subjects.
+Developed communication, teaching, and problem-solving skills through structured lessons.
+</p>
+
+</section>
+
+
+<section>
+
+<h2>CV</h2>
+
+<p>
+<a href="CV.pdf" target="_blank">Download my CV (PDF)</a>
+</p>
+
+</section>
+
+
+<footer>
+
+<hr>
+
+<p>
+© 2026 Jainam Sheth
+</p>
+
+</footer>
+
 
 </body>
 </html>
-
